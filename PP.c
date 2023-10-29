@@ -220,8 +220,8 @@ while(fread(&std,sizeof(std),1,f)==1){
         gets(std.mobile);
         gotop(12,11);
         printf("Enter Roll NO.");
-        gets(std.roll);
-        //scanf("%d",&std.roll);
+        
+        scanf("%d",&std.roll);
         fflush(stdin);
         gotop(12,13);
         printf("Enter Course .");
